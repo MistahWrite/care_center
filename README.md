@@ -117,9 +117,10 @@ _NOTE: None of this needs to persist on page refresh, unless you also complete t
 #### Login Page
 - Refactor your application so that the user lands on a "Login" page
 - The login page should match the style of the application.
-- The login page should contain an input for a user to enter their name, and a button to submit.
+- The login page should contain an input for a user to enter their name, password and a button to submit.
 - After the user clicks the submit button, they should be taken to the main application page, and see a personalized greeting that displays their name and some sort of welcome message.
 - The welcome message and name should appear in a logical place of your choosing.
+- Be sure to add a logout button that removes the current user.
 
 #### Responsive Design
 - Do some research and determine how to make your app respond to the user's screen size.
@@ -128,6 +129,7 @@ _NOTE: None of this needs to persist on page refresh, unless you also complete t
 #### Local Storage 
 - Only do this if you've added the "Favorite a Message" functionality.
 - Do some research to utilize Local Storage, so that the user's favorite messages will persist, even if they reload the page.
+- Add the user login information to local storage so users can sign in with their username and password
 
 #### Design your own feature
 - Have an idea of something you'd like to add to the app? Go for it! Just be sure to run the idea by your instructors first!
