@@ -3,9 +3,24 @@
   <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
   </head>
   <body>
-  
-    <script type="text/javascript" src="main.js"></script>
+    <h1>Self Care Center</h1>
+    <h2>Which tytpe of message?</h2>
+    <form>
+    <label for="affirmation"><input type="radio" name="type" id="affirmation" value="affirmation">affirmation</label>
+    <label for="mantra"><input type="radio" name="type" id="mantra" value="mantra" checked>mantra</label>
+      <br/><input type="button" value="Receive Message" id="receiveMessage">
+    </form>
+    <div id="message">
+      <img src="assets/meditate.svg" height="200" width="200">
+    </div>
+    <form>
+      <input type="button" value="View Favorites" id="viewFavorites">
+    </form>
+    <div id="favorites"></div>
+    <!--<img width="1434" alt="Screen Shot 2020-10-15 at 10 06 20 AM 👁 " src="https://user-images.githubusercontent.com/49926352/96160091-b7880d80-0ed2-11eb-9e16-2c7e52b72509.png">
+    -->
   </body>
 </html>

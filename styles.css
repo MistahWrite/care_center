@@ -6,3 +6,12 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+body {
+    font-family: 'Quicksand', sans-serif;
+    text-align : center;
+    background : #78a7c6;
+}
+#message {
+    background : white;
+    align : center;
+}
